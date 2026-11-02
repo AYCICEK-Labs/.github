@@ -1,0 +1,23 @@
+name: Task
+description: Work that is neither a bug nor a feature, such as maintenance or documentation.
+body:
+  - type: textarea
+    id: task
+    attributes:
+      label: Task
+      description: What needs to be done, and why.
+    validations:
+      required: true
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      placeholder: |
+        - [ ]
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
